@@ -48,5 +48,4 @@ Call it "feature1.md" and write whatever suits you in it.
 
 Then you want to pull that change to your local repo : `git pull`
 
-
-
+#### At this point, you should have a local and a remote. Both containing 2 files and correctly synced (readme.md and feature1.md)
