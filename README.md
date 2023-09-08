@@ -2,4 +2,4 @@
 
 ## Exercises
 
-1. setup
+### 1. [setup](./exercises/setup.md)
