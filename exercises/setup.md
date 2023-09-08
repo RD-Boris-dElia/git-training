@@ -11,6 +11,8 @@ cd <working directory>
 git init
 ```
 
+![git innit](../resources/git_innit.png)
+
 Then we need to link a remote repository to your local one. 
 
 The remote name does not matter but is named "origin" by default whenever you clone a remote instead of adding it manually.
