@@ -23,6 +23,8 @@ The remote name does not matter but is named "origin" by default whenever you cl
 
 ### setup on github
 
+This automatically adds your repository as your "origin" remote
+
  `git clone <your repo url> (your destination path/directory)`
 
 ## push your first file
