@@ -30,6 +30,8 @@ git checkout feature2
 git push
 ```
 
+![branches](../resources/branches.png)
+
 ##### Note that `git branch` allows to list all current branches in your repository
 
 After that, you have a second branch both in your remote and in your local repos.
