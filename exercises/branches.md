@@ -76,4 +76,6 @@ Fast-forward
 
 You are now up to date with the latest main changes !
 
+##### Note : Fast forward means that git was able to automatically apply a merge without conflicts
+
 
