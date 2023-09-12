@@ -31,6 +31,7 @@ You can list commits that happened on the repository with the `git log` command.
 But you can also filter based on your needs :
 
 - Everything that happened for a branch `git log <branch name>`
+- Change the format of the logs : `git log --pretty=oneline`
 - Search in commit messages :`git log --grep="search string"`
 - Search in code :`git log -S"search string"`
 - Search in code (Regexp) :`git log -G"regexp"`
@@ -43,4 +44,7 @@ For that, `git diff <commit>` is the right command to use. By default, it diffs 
 Commits are identified by a unique sha or hash (ex :431df8fddd622ecb1b31f0b669952060c129b5c3)
 
 - diff a commit's change only : `git diff <commit>^!`
+- You can also use `git show <commit>`
 - diff local changes against a remote current state `git diff origin/main` or `git diff <remote>/<branch>`
+
+If you want to see the full history of a file with a visual tool, you can run `gitk <filename>`
