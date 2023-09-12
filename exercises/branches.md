@@ -45,3 +45,35 @@ It does nothing it seems... Let's rerun it between those following steps :
 2. Add some text in it
 3. commit the file
 4. push the file
+
+### Create a change in main
+
+##### We will now simulate the work of a collaborator, who applied some changes on the main branch.
+
+You can add a newline in your feature1.md file directly on your main branch on github (this is not good practice).
+
+Feature1.md should look like this :
+
+![feature1](../resources/feature1-state2.png)
+
+Go back to your local branch and we now want to pull that change into your local repo.
+
+1. Make sure you are still on your feature2 branch
+```console
+shell:~$ git branch
+* feature2
+  main
+```
+2. `git pull <remote name> <branch name>`
+```console
+shell:~$ git pull github main
+From https://github.com/<user>/<repository>
+ * branch            main       -> FETCH_HEAD
+Updating bff7301..69bd9a7
+Fast-forward
+ feature1.md                   |   1 ++
+```
+
+You are now up to date with the latest main changes !
+
+
