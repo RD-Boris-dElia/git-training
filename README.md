@@ -43,4 +43,4 @@ For that, `git diff <commit>` is the right command to use. By default, it diffs 
 Commits are identified by a unique sha or hash (ex :431df8fddd622ecb1b31f0b669952060c129b5c3)
 
 - diff a commit's change only : `git diff <commit>^!`
-
+- diff local changes against a remote current state `git diff origin/main` or `git diff <remote>/<branch>`
