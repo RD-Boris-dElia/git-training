@@ -12,4 +12,39 @@ It doesn't matter what method you use, I just hope it helps your understand how 
 
 ### 2. [branches](./exercises/branches.md)
 
+## Helpful commands
 
+Here is the [official documentation](https://git-scm.com/docs) for all commands. 
+
+#### list remotes
+
+```console
+$ git remote -v
+github  https://github.com/RD-Boris-dElia/git-training (fetch)
+github  https://github.com/RD-Boris-dElia/git-training (push)
+```
+
+#### [git log](https://git-scm.com/docs/git-log) and [git diff](https://git-scm.com/docs/git-diff)
+
+You can list commits that happened on the repository with the `git log` command. It's always in descending order based on timestamp.
+
+But you can also filter based on your needs :
+
+- Everything that happened for a branch `git log <branch name>`
+- Change the format of the logs : `git log --pretty=oneline`
+- Search in commit messages :`git log --grep="search string"`
+- Search in code :`git log -S"search string"`
+- Search in code (Regexp) :`git log -G"regexp"`
+
+And much more. Here's a cheatsheet of most useful commands : https://devhints.io/git-log
+
+Git log is useful to find specific commits but you won't know what did this commit introduce in the code.
+For that, `git diff <commit>` is the right command to use. By default, it diffs the code against your HEAD.
+
+Commits are identified by a unique sha or hash (ex :431df8fddd622ecb1b31f0b669952060c129b5c3)
+
+- diff a commit's change only : `git diff <commit>^!`
+- You can also use `git show <commit>`
+- diff local changes against a remote current state `git diff origin/main` or `git diff <remote>/<branch>`
+
+If you want to see the full history of a file with a visual tool, you can run `gitk <filename>`
