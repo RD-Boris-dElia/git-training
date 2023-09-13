@@ -14,6 +14,8 @@ It doesn't matter what method you use, I just hope it helps your understand how 
 
 ### 3. [merge](./exercises/merge.md)
 
+### 4. [tagging](./exercises/tagging.md)
+
 ## Helpful commands
 
 Here is the [official documentation](https://git-scm.com/docs) for all commands. 
