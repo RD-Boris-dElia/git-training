@@ -45,3 +45,9 @@ The easiest way to resolve the conflict is to use your IDE. Your result should l
 
 GET and FILTER data from the DB but without bugs please then format the data for the client
 ```
+
+
+## Second case
+
+Let's do the same, but instead of editing the same file, one will delete the file, the other will edit it.
+The edit does not matter.
