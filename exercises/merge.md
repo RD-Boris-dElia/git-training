@@ -37,9 +37,9 @@ GET and FILTER data from the DB then format the data for the client
 
 <<<<<<< is the entrypoint of the conflict with the source (HEAD) of the first part of the code then the conflicting code from that source.
 
->>>>>>> is the exit of the conflict with the hash from the commit introducing the conflict. 
+\>>>>>>> is the exit of the conflict with the hash from the commit introducing the conflict. 
 
-The easiest way to resolve the conflict is to use your IDE.Your result should look like this :
+The easiest way to resolve the conflict is to use your IDE. Your result should look like this :
 ```
 # This is my first feature
 
